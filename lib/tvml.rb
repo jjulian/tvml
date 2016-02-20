@@ -11,6 +11,7 @@ module TVML
 
   module Element
     autoload :Base, 'TVML/element/base'
+    autoload :Banner, 'TVML/element/banner'
     autoload :CollectionElement, 'TVML/element/collection_element'
 
     autoload :Button, 'TVML/element/button'
